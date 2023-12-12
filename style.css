@@ -1,0 +1,608 @@
+body{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #867183;
+}
+.heading-div {
+    background-color: #43143d;
+}
+.heading{
+    font-family: 'Arial Narrow Bold';
+    text-align: center;
+    padding: 30px;
+}
+#certificate{
+    color: #43143d;
+    text-decoration:overline;
+    font-weight: bold;
+}
+.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5f4f5c;
+    padding: 30px;
+} 
+.footer-up{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #867183;
+} 
+.Links:hover{
+color: #43143d;
+cursor: pointer;
+transition: color 0.3s ease; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #43143d;
+    transition: color 0.3s ease;  
+}
+li{
+    cursor: pointer;
+}
+.color{
+    color: #43143d;
+}
+.ImageContent{
+background-color: #43143d;
+}
+.slider{
+    background: url(./images/insights-agri-enviro-sustainability.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position:relative;
+    overflow: hidden;
+}
+.show{
+    color: black;
+}
+/* Misbah CSS */
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #867183;
+}
+#certificate{
+    color: #43143d;
+    text-decoration:overline;
+    font-weight: bold;
+}
+
+/* CONTACT US */
+
+.contact-us, .our-product {
+    background-color: #5c4359;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'AndikaNewBasicRegular';
+    font-size: 70px;
+    font-weight: 30px;
+
+}
+
+#contact {
+    color: rgb(242, 237, 237);
+}
+
+#us {
+    /* color: aqua; */
+    color: #be41ac;
+
+}
+ul{
+    list-style-type:square;
+}
+
+#h {
+    color: rgb(26, 26, 107);
+}
+
+#underline {
+    height: 3px;
+    background-color: rgb(69, 66, 66);
+}
+
+#i {
+    width: 190px;
+    height: 180px;
+}
+
+#i2 {
+    width: 190px;
+    height: 200px;
+}
+
+.side-section {
+    display: flex;
+
+}
+
+#mail {
+    color: rgb(62, 62, 215);
+}
+
+.blue {
+    /* color: rgb(126, 12, 180); */
+    color: rgb(40, 40, 103);
+
+}
+.purple{
+ color: #ab4d9d;
+
+}
+
+/*  OUR Products */
+.aa{
+    transition: transform 0.3s ease;
+    /* padding: 8px; */
+    flex-wrap: wrap;
+}
+.aa:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.product-cards {
+    /* background-color: black; */
+    flex-wrap: wrap;
+}
+.product-cards img{
+    width: 240px;
+    height: 280px;
+    background-color: #867183;
+
+}
+    
+#displaying{
+display: none;
+position: fixed;
+left: 0;
+top: 0;
+padding-top: 5%;
+width: 100%;
+height: 100%;
+backdrop-filter: blur(5px);
+}
+
+/* ??????????????????????? */
+#img-container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+}
+/* ??????????????????????? */
+
+#X{
+
+    position:absolute ;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#X:hover{
+    transition: transform 0.3s ease;
+    color: #a79e9e;
+    transform: scale(1.2);
+}
+
+
+/* QUALITY CONTROL*/
+.contactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    background-image: url('./images/images4.jpg');
+    background-image: no-repeat center center;
+    background-size: cover;
+    transition: transform 0.8s ease;
+}
+.contactUs:hover{
+    transform: scale(1.1);
+}
+#btn{
+    width: 200px;
+    height:50px;
+    font-size: 15px;
+    transition: transform 0.6s ease;
+    background-color: rgb(40, 40, 103);
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(51, 51, 145);
+
+}
+.contain-images{
+ 
+    background-color: #5c4359;
+    width: 100%;
+    padding:12px;
+    overflow-x: hidden;
+}
+.image{
+    width:340px;
+    height: 200px;
+}
+#pic{
+    width: 520px;
+    height: 370px;
+}
+
+/* FOOTER */
+#certificate{
+    color: #43143d;
+    text-decoration:overline;
+    font-weight: bold;
+}
+.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5f4f5c;
+    padding: 30px;
+} 
+.footer-up{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #867183;
+} 
+.Links:hover{
+color: #43143d;
+cursor: pointer;
+transition: color 0.3s ease; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #43143d;
+    transition: color 0.3s ease;  
+}
+li{
+    cursor: pointer;
+}body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #867183;
+}
+
+.angleup{
+    position:absolute;
+    right: 0;
+    border: 0;
+    z-index: 99999;
+    margin-top: -100px;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #43143d; */
+    background-color: #88517e;
+    overflow-y: hidden;
+    color: white;
+    
+}
+.angleup:hover{
+    background-color: #b450a1;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+ 
+}
+
+
+
+
+
+@media (max-width: 994px ) {
+   
+    #i2 {
+        position: relative;
+        left: 30%;
+        width: 300px;
+        height: 280px;
+    }
+    #i{
+        position: relative;
+        left: 30%;
+        width: 300px;
+        height: 280px;
+
+    }
+
+    #displayimg{
+    
+        display: none;
+        position:fixed;
+        left:220px;
+        top:200px;
+        padding-top: 5%;
+        height:60%;
+        z-index: 9999;
+        /* background-color: ; */
+        /* filter: blur(5px); */
+        
+    }
+    #displayimg img{
+        width: 240px;
+        height: 360px;
+        margin-top:20px;
+    }
+
+    #X{
+        position: absolute;
+        top:8px;
+        right: 35px;
+     justify-content: flex-end;
+     margin-left: 250px;
+     margin-bottom: 50px;
+     color: black;
+     cursor: pointer;
+    }
+    #X:hover{
+        transition: transform 0.3s ease;
+        transform: scale(1.2);
+    }
+
+}
+
+    @media (max-width: 700px) {
+        #i2,
+        #i {
+            left: 10%;
+        }
+    }
+
+    @media (max-width: 400px) {
+        #i2,
+        #i {
+            left: 0;
+        }
+    }
+/*///////////////////////// HOME PAGE //////////////////////*/
+/* */
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+.movingGif {
+    overflow: hidden;
+    height: 60vh;
+    background-image: url('./images/b4.png');
+    background-image: no-repeat center center; 
+    background-size: cover;
+    animation: moveBackground 05s linear infinite;
+    color: white;
+    font-weight: bold;
+}
+
+.movingGif img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+.background{
+    background-image: url('./images/b4.png');
+    background-image: no-repeat center center;
+    background-size: cover;
+}
+.salient-features{
+    background-image: url('./images/lather3.jpg');
+    background-image: no-repeat center center;
+    background-size: cover; 
+}
+
+.headings{
+    /* margin-top: 50px; */
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.view-pro{
+    width: 150px;
+    padding: 20px;
+    color: rgb(232, 230, 233);
+    background-color: #43143d;
+}
+.view-pro:hover{
+    background-color: wheat;
+cursor: pointer;
+}
+
+/* 
+@media (max-width: 1000px) {
+    @keyframes moveBackground {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 100% 0;
+        }
+    }
+    
+    .movingGif {
+        overflow: hidden;
+        height: 60vh;
+        background-image: url('./Images/bg3.png');
+        background-position: repeat center center; 
+        background-size: cover;
+        animation: moveBackground 05s linear infinite;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .movingGif img{
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .background{
+        overflow: hidden;
+        background-image: url('./Images/bg3.png');
+        background-image: repeat center center;
+        background-size: cover;
+        height: 60vh;
+    }
+}
+@media (max-width: 700px) {
+    @keyframes moveBackground {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 100% 0;
+        }
+    }
+    
+    .movingGif {
+        overflow: hidden;
+        height: 60vh;
+        background-image: url('./Images/b4.png');
+        background-position: repeat center center; 
+        background-size: cover;
+        animation: moveBackground 05s linear infinite;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .movingGif img{
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .background{
+        overflow: hidden;
+        background-image: url('./Images/b4.png');
+        background-image: repeat center center;
+        background-size: cover;
+        height: 60vh;
+    }
+} */
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+.movingGif {
+    overflow: hidden;
+    height: 60vh;
+    background-image: url('./images/b4.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; /* Add this line */
+    animation: moveBackground 5s linear infinite;
+    color: white;
+    font-weight: bold;
+}
+
+.movingGif img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 1000px) {
+    @keyframes moveBackground {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 100% 0;
+        }
+    }
+
+    .movingGif {
+        overflow: hidden;
+        height: 60vh;
+        background-image: url('./images/bg3.png');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed; /* Add this line */
+        animation: moveBackground 5s linear infinite;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 700px) {
+    @keyframes moveBackground {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 100% 0;
+        }
+    }
+
+    .movingGif {
+        overflow: hidden;
+        height: 60vh;
+        background-image: url('./images/b4.png');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed; /* Add this line */
+        animation: moveBackground 5s linear infinite;
+        color: white;
+        font-weight: bold;
+    }
+}
+#myCarousel {
+    margin-top: 50px;
+    /* background-color: #43143d; */
+}
+#myCarousel img{
+    height:400px;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+     }
+  
+     .carousel-inner .carousel-item>div:first-child {
+        display: block;
+     }
+  }
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
